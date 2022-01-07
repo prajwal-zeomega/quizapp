@@ -1,0 +1,36 @@
+
+
+Features of My Chat Application:
+________________________________
+
+The app contains real-time chat between two private users
+- The chat history can be retirieved later when the chat is accessed by the user
+- The chat between two people will not be broadcasted to other users online
+- If an active user sends a message to another user while he is offline, the other user will be able to retirieve message later when he accesses the chat
+
+
+Functionality :
+______________
+
+      When a user login, his'her record is maintained in online users collection, and the entire chat history is retrived from the database and displayed
+using socket.io.When he sends messages, it's checked if the recipient is online or not. If yes, message is sent to him. If not, nothing happens. In both 
+the cases, message is stored in database for later access.When a user disconnects, he'she is  removed from online users database.
+
+
+
+Steps to excute my application in the localhost:
+_________________________________________________
+
+1. $ npm install
+
+2. $ node server.js
+
+3. Now, the server is running, open the link http://localhost:5000/chat.html to access the chat interface
+
+4. Type your name and the 2nd person name and press done to establish a connection. You will see the entire chat history retrieved between the two people.
+
+5. Open the same URL in another browser/tab and establish the other half of the connection
+
+6. Send messages from any end to see the functioning
+
+7. Close when you have to exit the chat 
