@@ -1,0 +1,12 @@
+*I created the movie library that contain the movie-name,rating,genre,comment
+
+*I am testing that movie library using karma tool
+
+*In this project, i wrote 14 specifications,
+skipped one specfication as per your reference and 
+other all 13 specifications are passed
+
+*I attached output screenshots and github link for your reference
+
+
+Note: deleted the node_module, before karma start, install node_modules
